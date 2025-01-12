@@ -110,12 +110,16 @@ nav{
     
 }
 
-.inno-img1{
+.inno-img1 {
     background-color: #FFFFFF;
     padding: 24px;
     border-radius: 16px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    
 
+}
+.vision{
+    margin-bottom: 80px;
 }
 
 .vision-content{
@@ -204,6 +208,8 @@ nav{
     background-color: #006A50;
     border-radius: 8px;
     color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
     padding: 13px 26px;
     border-style: none;
 
@@ -295,6 +301,8 @@ nav{
    border-radius: 8px;
    border-style: none;
    color: #FFFFFF;
+   font-weight: 700;
+   font-size: 18px;
    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 
 
