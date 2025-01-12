@@ -3,7 +3,8 @@ body{
     padding: 0px;
     font-family: "Fira Sans", serif;
     background-color: #F1F1F3;
-  
+    width: 1280px;
+    margin: 0px auto;
 
 }
 
@@ -16,10 +17,7 @@ body{
     font-weight:800;
 }
 
-.body-content{
-    margin-left: 160px;
-    max-width: 1230px;
-}
+
 .btn-primary{
     background-color:#006A50;
     color:#FFFFFF;
@@ -28,8 +26,9 @@ body{
     font-weight: 600;
     font-size: 18;
 }
-p{
+.vision-p{
     font-weight: 400px ;
+    margin: 32px 0px;
     font-size: 16px;
     color:#0E0E0E;
     opacity: 70% ;
@@ -41,7 +40,7 @@ h4{
 
 /* Nav Bar */
 header{
-    margin: 24px 160px;
+    margin: 24px 0px;
 }
 
 nav{
@@ -141,9 +140,114 @@ nav{
     background-color: #F7EBCF;
     background-blend-mode: color;
     padding: 32px;
-   
 
 }
+.quote-content{
+       background-color: #FFFFFF;
+       border:1px solid #0e0e0e2a ;
+       border-radius: 16px;
+       margin:32px 0px ;
+       padding: 48px 24px;
+       display: flex;
+}
+
+#quote{
+    
+    background: url(../assets/quote-bg.png);
+    background-size: 64px 64px;
+    background-repeat: no-repeat;
+    
+    
+    
+    
+}
+.container
+{   background-color: #FFFFFF;
+    border-radius:24px ;
+    margin: 24px 0px;
+    padding: 48px;
+   
+    
+}
+
+.card
+{  display: flex;
+   
+}
+
+#img1{
+    width:408px ;
+    height: 306px;
+    border-radius: 24px ;   
+    margin: 48px 0px;
+}
+.card-content{
+   padding: 32px;
+}
+
+ 
+.card-date{
+    font-weight: 300px;
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
+
+}
+.read-more{
+    background-color: #006A50;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 13px 26px;
+    border-style: none;
+
+}
+
+.donate-content{
+    margin-top:80px  ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+.content-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.taka{
+    display: flex;
+    
+
+}
+.button-content{
+    padding: 40px;
+    margin:24px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+
+
+}
+
+.btn-taka{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+
+.donate-p{
+    font-weight: 400px ;
+    margin: 24px 0px 32px;
+    font-size: 16px;
+    color:#0E0E0E;
+    opacity: 70% ;
+}
+
+
+
+
+
 
 
 
