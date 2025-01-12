@@ -76,18 +76,25 @@ nav{
 }
 
 .banner-content{
-    max-width: 520px;
-    font-weight: medium;
-    font-size: 24px;
     
-
+    margin-right: 50px;
+    
 }
 .banner-title{
+    font-weight: medium;
+    font-size: 24px;
     opacity: 50%;
+}
+.banner-des{
+    font-weight: bold;
+    font-size: 56px;
+    
+    
 }
 .btn1
 {
     padding: 17px 34px ;
+    
 }
 
 .section-2{
