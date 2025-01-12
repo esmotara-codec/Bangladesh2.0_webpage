@@ -98,6 +98,7 @@ nav{
     color: #0E0E0E;
     font-weight: bold;
     font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.299);
 }
 .innovation
 {
@@ -106,11 +107,14 @@ nav{
     color: #0e0e0e;
     gap: 24px;
     
+    
 }
 
 .inno-img1{
     background-color: #FFFFFF;
     padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -120,10 +124,11 @@ nav{
 }
 .vision-border{
     border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .vision-card1{
-    background-color: #5490F5;
+    background-color: #548ff534;
     background-blend-mode: color;
     padding: 32px;
    
@@ -149,6 +154,7 @@ nav{
        margin:32px 0px ;
        padding: 48px 24px;
        display: flex;
+       text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.299);
 }
 
 #quote{
@@ -166,6 +172,7 @@ nav{
     border-radius:24px ;
     margin: 24px 0px;
     padding: 48px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
    
     
 }
@@ -216,6 +223,7 @@ nav{
     font-size: 40px;
     font-weight: bold;
     margin: 10px 0px 0px 0px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.299);
 }
 .taka{
     display: flex;
@@ -225,11 +233,12 @@ nav{
 }
 .button-content{
     padding: 24px;
-   
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border:1px solid #0e0e0e13;
     border-radius: 16px;
     opacity: 80%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+   
     
 }
 
@@ -239,6 +248,7 @@ nav{
     color: #0E0E0E;
     opacity: 80%;
     padding: 32px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     
     
 }
@@ -258,7 +268,10 @@ nav{
 }
 .amount{
     background-color: #FFFFFF;
-    margin: 0px 20px;
+    margin: 0px 80px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+   
+   
 
     
 }
@@ -268,7 +281,9 @@ nav{
     border: 1px solid #0e0e0e00;
     font-weight: 400px;
     font-size: 20px;
-    opacity: 30%;
+    opacity: 70%;
+    width: 900px ;
+    text-align: center;
 
  }
 
@@ -280,19 +295,112 @@ nav{
    border-radius: 8px;
    border-style: none;
    color: #FFFFFF;
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 
 
 
 
 }
-.container-news
+.newsletter-section
 {   background-color: #C6E4D6;
     border-radius:24px ;
-    margin: 24px 0px;
-    padding: 48px;
+    margin-top: 24px;
+    margin-bottom: 80px;
+    padding: 80px 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+    
    
     
 }
+.newsletter-title{
+    font-weight: bold ;
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 40px;
+    color:#0E0E0E;
+    
+}
+
+.newsletter-subtitle{
+    font-weight: 400px ;
+    font-size: 16px;
+    color:#0e0e0ea6;
+    margin-bottom: 24px;
+    text-align: center;
+    margin: 0px 200px ;
+    padding-bottom: 24px;
+  
+
+}
+
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.newletter-email{
+    width:600px ;
+    padding: 18px 40px;
+    background-color: #FFFFFF;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius:8px ;
+    border:1px solid #FFFFFF;
+    opacity: 70%;
+
+
+}
+.newsletter-button{
+    background-color: #006A50;
+    border-style: none;
+    font-weight:bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 17px 34px;
+}
+.newsletter-note{
+    text-align: center;
+    color: #0e0e0ea8;
+
+
+}
+.footer{
+    background-color: #FFFFFF;
+    align-items: center;
+    margin-bottom: 600px;
+    width: 100vw;
+    left: 0;
+    right: 0;
+    
+    position: absolute;
+   
+}
+.footer-title{
+    font-weight: bold;
+    font-size: 32px;
+    color: #0E0E0E;
+    text-align: center;
+    padding-top: 50px;
+}
+hr{
+    width: 50%;
+}
+ul{
+    text-decoration: none;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 50px;
+    
+}
+li{
+    display: inline;
+    
+}
+
+
 
 
 
